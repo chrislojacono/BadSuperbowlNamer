@@ -13,13 +13,13 @@ namespace BadSuperBowlNamer.Tests
             //Arrange - what are the things I need in order to run these tests -> context creation
             var numberToConvert = 1;
             var translator = new RomanNumeralTranslator();
-
+            var expectedResult = "I";
 
             //Act
             var result = translator.NumberToNumeral(numberToConvert);
 
             //Assert
-            Assert.Equal("I", result);
+            Assert.Equal(expectedResult, result);
             
         }
 
