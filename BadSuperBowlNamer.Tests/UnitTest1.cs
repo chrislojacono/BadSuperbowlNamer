@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 
+
 namespace BadSuperBowlNamer.Tests
 {
     //name the class for the things we are testing
@@ -20,7 +21,28 @@ namespace BadSuperBowlNamer.Tests
             //Assert
             Assert.Equal("I", result);
             
+        }
 
+        [Fact]
+        public void when_the_number_5_is_passed_V_should_be_returned()
+        {
+            var numberToConvert = 5;
+            var translator = new RomanNumeralTranslator();
+
+            var result = translator.NumberToNumeral(numberToConvert);
+
+            Assert.Equal("V", result);
+        }
+
+        [Fact]
+        public void when_the_number_9_is_passed_IX_should_be_returned()
+        {
+            var numberToConvert = 9;
+            var translator = new RomanNumeralTranslator();
+
+            var result = translator.NumberToNumeral(numberToConvert);
+
+            Assert.Equal("IX", result);
         }
     }
 }
