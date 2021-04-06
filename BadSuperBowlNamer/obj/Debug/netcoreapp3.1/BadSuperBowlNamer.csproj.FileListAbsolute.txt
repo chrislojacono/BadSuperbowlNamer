@@ -1,0 +1,13 @@
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer\bin\Debug\netcoreapp3.1\BadSuperBowlNamer.exe
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer\bin\Debug\netcoreapp3.1\BadSuperBowlNamer.deps.json
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer\bin\Debug\netcoreapp3.1\BadSuperBowlNamer.runtimeconfig.json
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer\bin\Debug\netcoreapp3.1\BadSuperBowlNamer.runtimeconfig.dev.json
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer\bin\Debug\netcoreapp3.1\BadSuperBowlNamer.dll
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer\bin\Debug\netcoreapp3.1\BadSuperBowlNamer.pdb
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer\obj\Debug\netcoreapp3.1\BadSuperBowlNamer.csprojAssemblyReference.cache
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer\obj\Debug\netcoreapp3.1\BadSuperBowlNamer.AssemblyInfoInputs.cache
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer\obj\Debug\netcoreapp3.1\BadSuperBowlNamer.AssemblyInfo.cs
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer\obj\Debug\netcoreapp3.1\BadSuperBowlNamer.csproj.CoreCompileInputs.cache
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer\obj\Debug\netcoreapp3.1\BadSuperBowlNamer.dll
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer\obj\Debug\netcoreapp3.1\BadSuperBowlNamer.pdb
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer\obj\Debug\netcoreapp3.1\BadSuperBowlNamer.genruntimeconfig.cache
