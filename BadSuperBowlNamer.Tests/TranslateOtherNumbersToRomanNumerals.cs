@@ -5,12 +5,18 @@ using Xunit;
 
 namespace BadSuperBowlNamer.Tests
 {
-    class TranslateOtherNumbersToRomanNumerals
+    public class TranslateOtherNumbersToRomanNumerals
     {
         [Theory]
-        public void the_number_is_translated_correctly_to_roman_numerals()
+        [InlineData(1, "I")]
+        public void the_number_is_translated_correctly_to_roman_numerals(int numberToConvert, string expectedNumeral)
         {
-
+            //Arrange
+            var translator = new RomanNumeralTranslator();
+            //Act
+            var actualResult = translator.NumberToNumeral(numberToConvert);
+            //Assert
+            Assert.Equal(expectedNumeral, actualResult);
         }
     }
 }
