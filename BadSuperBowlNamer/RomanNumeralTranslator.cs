@@ -18,8 +18,12 @@ namespace BadSuperBowlNamer
             while (numberToConvert > 0)
             {
 
-
-                if(numberToConvert >= 50)
+                if(numberToConvert >= 100)
+                {
+                    result += "C";
+                    numberToConvert -= 100;
+                }
+                else if(numberToConvert >= 50)
                 {
                     result += "L";
                     numberToConvert -= 50;
@@ -31,16 +35,12 @@ namespace BadSuperBowlNamer
                 }
                 else if(numberToConvert >= 10)
                 {
-                    //  result += "X";
-                    //  numberToConvert -= 10;
-                    var numberOfTens = numberToConvert / 10;
-                    numberToConvert %= 10;
-
-                    result += new string('X', numberOfTens);   
+                    result += "X";
+                    numberToConvert -= 10;
                 }
                 else if(numberToConvert == 9)
                 {
-                    result += "XI";
+                    result += "IX";
                     numberToConvert = 0;
                 }
                 else if (numberToConvert >= 5)

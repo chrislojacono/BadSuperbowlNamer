@@ -13,6 +13,7 @@ namespace BadSuperBowlNamer.Tests
         [InlineData(14, "XIV")]
         [InlineData(73, "LXXIII")]
         [InlineData(49, "XLIX")]
+        [InlineData(143, "CXLIII")]
         public void the_number_is_translated_correctly_to_roman_numerals(int numberToConvert, string expectedNumeral)
         {
             //Arrange
