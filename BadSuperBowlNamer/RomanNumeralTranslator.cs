@@ -14,21 +14,48 @@ namespace BadSuperBowlNamer
             //    5 => "V",
             //    9 => "IX",
             //};
-
             var result = "";
-            switch (numberToConvert)
+            while (numberToConvert > 0)
             {
-                case 1:
-                    result += "I";
+                if(numberToConvert >= 10)
+                {
+                    var numberOfTens = numberToConvert / 10;
+                    numberToConvert = numberToConvert % 10;
+                    for (int i = 0; i < numberOfTens; i++)
+                    {
+                        result += "X";
+                    }
+                    
+                }
+                else
+                {
+                    result += ConvertOneThroughNine(numberToConvert);
                     break;
-                case 5:
-                    result += "V";
-                    break;
-                case 9:
-                    result += "IX";
-                    break;
+                }
+
             }
             return result;
+        }
+
+        string ConvertOneThroughNine(int smallNumber)
+        {
+            switch (smallNumber)
+            {
+                case 1:
+                    return "I";
+                case 2:
+                    return "II";
+                case 4:
+                    return "IV";
+                case 5:
+                    return "V";
+                    
+                case 9:
+                    return "IX";
+                    
+                default:
+                    return "";
+            }
         }
     }
 }

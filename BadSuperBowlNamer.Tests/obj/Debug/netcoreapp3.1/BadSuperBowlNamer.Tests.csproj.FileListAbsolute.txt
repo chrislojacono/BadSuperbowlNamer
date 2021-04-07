@@ -95,3 +95,6 @@ C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer.Tests\o
 C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer.Tests\obj\Debug\netcoreapp3.1\BadSuperBowlNamer.Tests.dll
 C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer.Tests\obj\Debug\netcoreapp3.1\BadSuperBowlNamer.Tests.pdb
 C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer.Tests\obj\Debug\netcoreapp3.1\BadSuperBowlNamer.Tests.genruntimeconfig.cache
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer.Tests\bin\Debug\netcoreapp3.1\BadSuperBowlNamer.exe
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer.Tests\bin\Debug\netcoreapp3.1\BadSuperBowlNamer.dll
+C:\Users\cloja\source\repos\Back-End\BadSuperBowlNamer\BadSuperBowlNamer.Tests\bin\Debug\netcoreapp3.1\BadSuperBowlNamer.pdb
